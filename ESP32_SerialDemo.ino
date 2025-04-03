@@ -28,6 +28,6 @@ void loop() {
     Serial.print("[ESP32] LED: ");
     Serial.print(ledState ? "ON" : "OFF");
     Serial.print(" | Bouton appuyé: ");
-    Serial.println(buttonPressed ? "OUI" : "NON");
+    Serial.println(buttonPressed ? "OUI" : "NON"); //comment
   }
 }
